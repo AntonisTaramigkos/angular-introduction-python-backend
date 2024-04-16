@@ -11,7 +11,7 @@ jwt = JWTManager(app)
 app.config["JWT_SECRET_KEY"] = "super secret and difficult to guess key"
 
 connect(
-    host="mongodb+srv://coding-factory:ufTXpw9bAEejrXfb@cluster0.okry00y.mongodb.net",
+    host="mongodb+srv://cfuser:12345@cluster0.kkskqwx.mongodb.net/codingfactory?retryWrites=true&w=majority&appName=Cluster0",
     db="Coding-Factory",
     alias="coding-factory",
 )
